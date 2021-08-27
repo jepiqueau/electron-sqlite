@@ -1,0 +1,60 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+  },
+  extends: [
+    'plugin:vue/essential',
+    'plugin:vue/strongly-recommended',
+    '@vue/airbnb',
+    '@vue/typescript/recommended',
+  ],
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
+  rules: {
+    'max-len': [1, { code: 240 }],
+    'lines-between-class-members': [1, 'always', { exceptAfterSingleLine: true }],
+    'arrow-parens': [1, 'as-needed'],
+    'class-methods-use-this': 0,
+    'comma-spacing': 1,
+    'computed-property-spacing': 1,
+    'eol-last': 1,
+    'implicit-arrow-linebreak': 0,
+    'import/prefer-default-export': 0,
+    indent: [1, 2, { ignoreComments: true }],
+    'no-multi-spaces': 1,
+    'no-multiple-empty-lines': 1,
+    'no-param-reassign': 0,
+    'no-return-assign': [1, 'except-parens'],
+    'no-trailing-spaces': 1,
+    'no-underscore-dangle': 0,
+    'object-curly-newline': [1, {
+      ObjectExpression: { consistent: true },
+      ObjectPattern: { consistent: true },
+      ImportDeclaration: 'never',
+      ExportDeclaration: { consistent: true },
+    }],
+    'object-curly-spacing': 1,
+    'padded-blocks': 1,
+    'linebreak-style': 0,
+    'space-before-blocks': 1,
+    'space-before-function-paren': 1,
+    'space-in-parens': 1,
+    'spaced-comment': 0,
+    'vue/max-attributes-per-line': 0,
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/mustache-interpolation-spacing': [1, 'never'],
+  },
+  overrides: [
+    {
+      files: [
+        '**/__tests__/*.{j,t}s?(x)',
+        '**/tests/unit/**/*.spec.{j,t}s?(x)',
+      ],
+      env: {
+        jest: true,
+      },
+    },
+  ],
+};
