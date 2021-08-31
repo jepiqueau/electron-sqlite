@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@capacitor-community/electron": "^4.0.3",
-    "@capacitor-community/sqlite": "^3.2.0-6",
+    "@capacitor-community/sqlite": "^3.2.0-11",
     "@capacitor/camera": "^1.0.3",
     "@capacitor/clipboard": "^1.0.2",
     "@capacitor/core": "^3.2.0",
@@ -39,9 +39,10 @@
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^4.0.11",
     "vue-sqlite-hook": "^2.0.6"
+
   },
   "devDependencies": {
-    "@capacitor/cli": "^3.0.2",
+    "@capacitor/cli": "^3.2.0",
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.171",
     "@types/nanoassert": "^2.0.0",
@@ -68,7 +69,7 @@
     "less": "^4.1.1",
     "less-loader": "7.3.0",
     "prettier": "^2.3.2",
-    "typescript": "^4.3.4",
+    "typescript": "~4.3.5",
     "vue-sqlite-hook": "^2.0.6"
   },
   "browserslist": [

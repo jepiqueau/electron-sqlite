@@ -18,3 +18,29 @@ definitions.js
    line 238 show open promise rejection
 
 ```
+
+******************************
+Added by Jeep 
+******************************
+
+after the git clone
+
+```bash
+yarn
+cd electron
+npm install
+npm run build
+cd ..
+yarn build
+npx cap sync @capacitor-community/electron
+npx cap copy
+npx cap copy @capacitor-community/electron
+npx cap open @capacitor-community/electron
+```
+
+Result 
+Show that the two databases have been created under the user folder
+
+![](images/Capture_Ecran_2021-08-31_10.08.12.png)
+
+Hope this will help you and close the issue

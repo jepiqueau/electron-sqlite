@@ -252,17 +252,17 @@
     mime-types "~2.1.31"
     ora "~5.4.1"
 
-"@capacitor-community/sqlite@^3.2.0-6":
-  version "3.2.0-6"
-  resolved "https://registry.yarnpkg.com/@capacitor-community/sqlite/-/sqlite-3.2.0-6.tgz#043868d4c0aec97afc3dfd5b7274c96c91c396a4"
-  integrity sha512-y6ED9IMXrTOFtII7bpBO+ixZGJvmfB3cW+yRKxIYuDLt8Gnoo0h+J0E/9E/4qkBd/ARjSwWlVMZMKd+HeoKY/w==
+"@capacitor-community/sqlite@^3.2.0-11":
+  version "3.2.0-11"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/sqlite/-/sqlite-3.2.0-11.tgz#0d8f26cbbbc3544e61576bf6c5de59903de92b3f"
+  integrity sha512-aYY5mdWV7eUTeYsWz+MF+mLmyVgqVAbfjZSQiPOn8u1EV2kkZvFum1xpupuZnAocGUE2gsf9XTl3XdaXQaB0vA==
 
 "@capacitor/camera@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@capacitor/camera/-/camera-1.0.4.tgz#6fd1f374b13866a1e87f7f9527585e43e43fb355"
   integrity sha512-mioASfnSeQybYW8EjhOWHkxK6739ZDrQQWzVo6SpXoUU8lyL0NKEaq6+eGHFmblBxM2qrQ4AkPxIRff5VwyyjQ==
 
-"@capacitor/cli@^3.0.2", "@capacitor/cli@^3.1.1":
+"@capacitor/cli@^3.1.1", "@capacitor/cli@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-3.2.0.tgz#9bd63843fa1cce8b2409d62f1fd81dad9da97130"
   integrity sha512-KwfNS8eKdAcJyC9yHnujvt31gRlnHU9lKxHqQdgUWlID74jIa++ORk1aqsCu5cE5dfqkqOuBTLy2DwM03YSWIg==
